@@ -4,8 +4,8 @@ Api is developed pretty fast so follow it's documentation for changes, I would b
 
 ## Usage
 
-creds = settings('your_username','your_password','123','abc')
-client = SWGOHhelp(creds)
+          creds = settings('your_username','your_password','123','abc')
+          client = SWGOHhelp(creds)
 
 #careful, allycode is integer, not string
 allycode = 997393984
