@@ -8,6 +8,7 @@ Api is developed pretty fast so follow it's documentation for changes, I would b
           client = SWGOHhelp(creds)
 
 #careful, allycode is integer, not string
+          
           allycode = 997393984
 
           player = client.get_data('player',allycode)
@@ -22,11 +23,13 @@ Api is developed pretty fast so follow it's documentation for changes, I would b
           battles = client.get_data('battles',allycode)
           print(battles)
 
-#data is different -there the second value is not allycode but chosen collection name:
+#data is different - there the second value is not allycode but chosen collection name:
+          
           data = client.get_data('data','abilityList')
           print(data)
 
 #currently valid collections:
+          
           abilityList
           battleEnvironmentsList
           battleTargetingRuleList
