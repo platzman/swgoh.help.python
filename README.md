@@ -27,38 +27,38 @@ data = client.get_data('data','abilityList')
 print(data)
 
 #currently valid collections:
-    abilityList
-    battleEnvironmentsList
-    battleTargetingRuleList
-    categoryList
-    challengeList
-    challengeStyleList
-    effectList
-    environmentCollectionList
-    equipmentList
-    eventSamplingList
-    guildExchangeItemList
-    guildRaidList
-    helpEntryList
-    materialList
-    playerTitleList
-    powerUpBundleList
-    raidConfigList
-    recipeList
-    requirementList
-    skillList
-    starterGuildList
-    statModList
-    statModSetList
-    statProgressionList
-    tableList
-    targetingSetList
-    territoryBattleDefinitionList
-    territoryWarDefinitionList
-    unitsList
-    unlockAnnouncementDefinitionList
-    warDefinitionList
-    xpTableList
+#abilityList
+#battleEnvironmentsList
+#battleTargetingRuleList
+#categoryList
+#challengeList
+#challengeStyleList
+#effectList
+#environmentCollectionList
+#equipmentList
+#eventSamplingList
+#guildExchangeItemList
+#guildRaidList
+#helpEntryList
+#materialList
+#playerTitleList
+#powerUpBundleList
+#raidConfigList
+#recipeList
+#requirementList
+#skillList
+#starterGuildList
+#statModList
+#statModSetList
+#statProgressionList
+#tableList
+#targetingSetList
+#territoryBattleDefinitionList
+#territoryWarDefinitionList
+#unitsList
+#unlockAnnouncementDefinitionList
+#warDefinitionList
+#xpTableList
 
 # Available Language Clients
 
