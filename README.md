@@ -8,57 +8,57 @@ Api is developed pretty fast so follow it's documentation for changes, I would b
           client = SWGOHhelp(creds)
 
 #careful, allycode is integer, not string
-allycode = 997393984
+          allycode = 997393984
 
-player = client.get_data('player',allycode)
-print(player)
+          player = client.get_data('player',allycode)
+          print(player)
 
-guild = client.get_data('guild',allycode)
-print(guild)
+          guild = client.get_data('guild',allycode)
+          print(guild)
 
-units = client.get_data('units',allycode)
-print(units)
+          units = client.get_data('units',allycode)
+          print(units)
 
-battles = client.get_data('battles',allycode)
-print(battles)
+          battles = client.get_data('battles',allycode)
+          print(battles)
 
 #data is different -there the second value is not allycode but chosen collection name:
-data = client.get_data('data','abilityList')
-print(data)
+          data = client.get_data('data','abilityList')
+          print(data)
 
 #currently valid collections:
-abilityList
-battleEnvironmentsList
-battleTargetingRuleList
-categoryList
-challengeList
-challengeStyleList
-effectList
-environmentCollectionList
-equipmentList
-eventSamplingList
-guildExchangeItemList
-guildRaidList
-helpEntryList
-materialList
-playerTitleList
-powerUpBundleList
-raidConfigList
-recipeList
-requirementList
-skillList
-starterGuildList
-statModList
-statModSetList
-statProgressionList
-tableList
-targetingSetList
-territoryBattleDefinitionList
-territoryWarDefinitionList
-unitsList
-unlockAnnouncementDefinitionList
-warDefinitionList
-xpTableList
+          abilityList
+          battleEnvironmentsList
+          battleTargetingRuleList
+          categoryList
+          challengeList
+          challengeStyleList
+          effectList
+          environmentCollectionList
+          equipmentList
+          eventSamplingList
+          guildExchangeItemList
+          guildRaidList
+          helpEntryList
+          materialList
+          playerTitleList
+          powerUpBundleList
+          raidConfigList
+          recipeList
+          requirementList
+          skillList
+          starterGuildList
+          statModList
+          statModSetList
+          statProgressionList
+          tableList
+          targetingSetList
+          territoryBattleDefinitionList
+          territoryWarDefinitionList
+          unitsList
+          unlockAnnouncementDefinitionList
+          warDefinitionList
+          xpTableList
 
 # Available Language Clients
 
